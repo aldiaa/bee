@@ -1,0 +1,6 @@
+name: bee
+markdown: redcarpet
+pygments: true
+port: 3000
+encoding: utf-8
+baseurl: /bee
