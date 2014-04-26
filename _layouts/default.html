@@ -1,7 +1,32 @@
-{% include head.html %}
+<!DOCTYPE html>
+<html>
+  <head dir="rtl">
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <title> {% if page.title %} {{ page.title }} | {% endif %} كهربائيات وإلكترونيات الضياء </title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" />
+  </head>
 
-    <h1>{{ page.title }}</h1>
+  <body>
+    <div id="main">
 
-    {{ content }}
-	{% include nav.html %}
-{% include foot.html %}
+        <header>
+            <h1>الضياء للكهربائيات</h1>
+        </header>
+		<div dir="RTL">
+        <nav role="navigation" dir="RTL">
+            <ul dir="rtl">
+                <li><a href="{{ site.baseurl }}/">الصفحة الرئيسية</a></li>
+                <li><a href="{{ site.baseurl }}/portfolio/">المنتجات</a></li>
+                <li><a href="{{ site.baseurl }}/about">حول الموقع</a></li>
+                <li><a href="{{ site.baseurl }}/contact">للإتصال</a></li>
+            </ul>
+        </nav>
+		</div>
+        {{ content }}
+
+        <footer>
+            
+        </footer>
+    </div>
+  </body>
+</html>

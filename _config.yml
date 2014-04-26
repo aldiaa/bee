@@ -1,6 +1,6 @@
-name: bee
+name: Diaa site
 markdown: redcarpet
 pygments: true
-port: 3000
 encoding: utf-8
-baseurl: /bee
+port: 3000
+baseurl: /elec

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Home
 ---
+<section role="banner">
+    <img src="{{ site.baseurl }}/img/banner.jpg" />
+</section>
 
-hello world!
